@@ -7,8 +7,11 @@ export type ButtonType = 'primary' | 'default' | 'danger' | 'link'
 
 interface BaseButtonProps {
     className?: string;
+    //是否禁用
     disabled?: boolean;
+    //设置 Button 尺寸
     size?: ButtonSize;
+    //设置 Button 类型
     btnType?: ButtonType;
     label?:string;
     href?: string;
