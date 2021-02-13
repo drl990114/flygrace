@@ -3,11 +3,9 @@ import classNames from 'classnames'
 import Transition from '../Transition/transition'
 import Icon from '../Icon/icon'
 
-
 export type AlertType = 'success' | 'default' | 'danger' | 'warning'
-
 export interface AlertProps {
-    //标题，必需项
+    //标题，必需属性
     title: string;
     //描述
     description?: string;
