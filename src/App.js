@@ -1,5 +1,8 @@
-import Button from './components/Button/button'
-import Alert from './components/Alert/alert'
+import {Button} from './components/Button/button'
+import {Alert} from './components/Alert/alert'
+import { Menu } from './components/Menu/menu'
+import { MenuItem } from './components/Menu/menuItem'
+import SubMenu from './components/Menu/subMenu'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas)
@@ -30,6 +33,25 @@ function App() {
           type="default"
         />
       </div>
+      <Menu >
+        <MenuItem index='0'>
+          haha
+        </MenuItem>
+
+        <MenuItem index='1'>
+          xixi
+        </MenuItem>
+        <SubMenu title='笑'>
+          <MenuItem index='1'>
+            xixi
+        </MenuItem>
+          <MenuItem index='1'>
+            xixi
+        </MenuItem>
+
+        </SubMenu>
+
+      </Menu>
     </>
   );
 }

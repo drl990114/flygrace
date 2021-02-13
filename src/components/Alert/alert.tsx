@@ -14,7 +14,7 @@ export interface AlertProps {
     closable?: boolean;
 }
 
-const Alert: FC<AlertProps> = (props) => {
+export const Alert: FC<AlertProps> = (props) => {
     const [hide, setHide] = useState(false)
     const {
         title,
@@ -52,13 +52,10 @@ const Alert: FC<AlertProps> = (props) => {
                 {closable && <span className="grace-alert-close" onClick={handleClose}><Icon icon="times" /></span>}
             </div>
         </Transition>
-
     )
-
 }
 
 Alert.defaultProps = {
     type: 'default',
     closable: true,
 }
-export default Alert;
