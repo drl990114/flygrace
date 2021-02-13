@@ -1,27 +1,29 @@
-import React from 'react'
-import { Story, Meta } from '@storybook/react/types-6-0'
-import { Button, ButtonProps } from './button'
+import React from 'react';
+import { Story, Meta } from '@storybook/react/types-6-0';
+
+import { Button, ButtonProps } from './button';
 import "../../styles/index.scss"
 
 export default {
-  title: 'Button',
+  title: 'Button按钮',
   component: Button,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template: Story<ButtonProps> = (args) => <Button {...args} />;
+const Example: Story<ButtonProps> = (args) => <Button {...args} />;
 
-export const 不同类型的按钮 = Template.bind({});
-不同类型的按钮.args = {
+export const Primary = Example.bind({});
+Primary.args = {
   btnType: 'primary',
-  label:'Button'
+  label:'primary'
 };
 
-export const 不同大小的按钮 = Template.bind({});
-不同大小的按钮.args = {
-  size: 'lg',
-  label:'Button'
+
+export const Default = Example.bind({});
+Default.args = {
+  btnType: 'default',
+  label:'default'
 };
 
