@@ -8,9 +8,6 @@ library.add(fas)
 export default {
     title: 'Alert提醒',
     component: Alert,
-    argTypes: {
-        backgroundColor: { control: 'color' },
-    },
 } as Meta;
 
 const Example: Story<AlertProps> = (args) => <Alert {...args} />;

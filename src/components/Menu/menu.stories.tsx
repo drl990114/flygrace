@@ -7,9 +7,6 @@ import { SubMenu } from './subMenu'
 export default {
     title: 'Menu菜单',
     component: Menu,
-    argTypes: {
-        backgroundColor: { control: 'color' },
-    },
     subcomponents:{MenuItem ,SubMenu}
 } as Meta;
 

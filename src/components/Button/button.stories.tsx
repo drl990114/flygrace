@@ -7,23 +7,20 @@ import "../../styles/index.scss"
 export default {
   title: 'Button按钮',
   component: Button,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
 } as Meta;
 
 const Example: Story<ButtonProps> = (args) => <Button {...args} />;
 
-export const Primary = Example.bind({});
-Primary.args = {
+export const 不同类型的Button = Example.bind({});
+不同类型的Button.args = {
   btnType: 'primary',
-  label:'primary'
+  label:'Button'
 };
 
 
-export const Default = Example.bind({});
-Default.args = {
-  btnType: 'default',
-  label:'default'
+export const 不同大小的Button = Example.bind({});
+不同大小的Button.args = {
+  size: 'lg',
+  label:'Button'
 };
 
