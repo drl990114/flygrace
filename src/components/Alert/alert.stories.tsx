@@ -6,16 +6,16 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas)
 
 export default {
-    title: 'Alert',
+    title: 'Alert提醒',
     component: Alert,
     argTypes: {
         backgroundColor: { control: 'color' },
     },
 } as Meta;
 
-const Template: Story<AlertProps> = (args) => <Alert {...args} />;
+const Example: Story<AlertProps> = (args) => <Alert {...args} />;
 
-export const 不同类型的alert = Template.bind({});
+export const 不同类型的alert = Example.bind({});
 不同类型的alert.args = {
     type: 'success',
     title: 'You can use control change commponentType',
