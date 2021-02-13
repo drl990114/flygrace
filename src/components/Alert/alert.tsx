@@ -7,10 +7,15 @@ import Icon from '../Icon/icon'
 export type AlertType = 'success' | 'default' | 'danger' | 'warning'
 
 export interface AlertProps {
+    //标题，必需项
     title: string;
+    //描述
     description?: string;
+    //类型
     type?: AlertType;
+    //关闭alert时的触发事件
     onClose?: () => void;
+    //是否显示关闭图标
     closable?: boolean;
 }
 
