@@ -1,8 +1,8 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
-
 import { Button, ButtonProps } from './button';
 import "../../styles/index.scss"
+
 
 export default {
   title: 'Button按钮',
@@ -23,4 +23,3 @@ export const 不同大小的Button = Example.bind({});
   size: 'lg',
   label:'Button'
 };
-
