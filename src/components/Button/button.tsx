@@ -13,7 +13,7 @@ interface BaseButtonProps {
     size?: ButtonSize;
      /**设置 Button 的类型 */
     btnType?: ButtonType;
-    label?:string;
+    children: React.ReactNode;
     href?: string;
 }
 
@@ -37,7 +37,7 @@ export const Button: FC<ButtonProps> = (props) => {
         className,
         size,
         btnType,
-        label,
+        children,
         href,
         ...restProps
     } = props
@@ -55,7 +55,7 @@ export const Button: FC<ButtonProps> = (props) => {
                 href={href}
                 {...restProps}
             >
-                {label}
+                {children}
             </a>
         )
     } else {
@@ -65,7 +65,7 @@ export const Button: FC<ButtonProps> = (props) => {
                 disabled={disabled}
                 {...restProps}
             >
-                {label}
+                {children}
             </button>
         )
     }

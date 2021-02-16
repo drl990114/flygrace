@@ -9,17 +9,15 @@ export default {
   component: Button,
 } as Meta;
 
-const Example: Story<ButtonProps> = (args) => <Button {...args} />;
+const Example: Story<ButtonProps> = (args) => <Button {...args}>Button</Button>;
 
 export const 不同类型的Button = Example.bind({});
 不同类型的Button.args = {
   btnType: 'primary',
-  label:'Button'
 };
 
 
 export const 不同大小的Button = Example.bind({});
 不同大小的Button.args = {
   size: 'lg',
-  label:'Button'
 };

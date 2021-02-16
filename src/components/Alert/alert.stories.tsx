@@ -14,7 +14,7 @@ const Example: Story<AlertProps> = (args) => <Alert {...args} />;
 
 export const 不同类型的alert = Example.bind({});
 不同类型的alert.args = {
-    type: 'success',
+    type: 'default',
     title: 'You can use control change commponentType',
     closable: true
 };
