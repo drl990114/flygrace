@@ -36,7 +36,7 @@ export const SelectContext = createContext<ISelectContext>({ selectedValues: []}
  * ### 引用方法
  * 
  * ~~~js
- * import { Select } from 'grace-d'
+ * import { Select } from 'flygrace'
  * // 然后可以使用 <Select> 和 <Select.Option>
  * ~~~
  */

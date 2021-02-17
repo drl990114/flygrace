@@ -22,7 +22,7 @@ export interface AlertProps {
  * ### 引用方法
  * 
  * ~~~js
- * import { Alert } from 'grace'
+ * import { Alert } from 'flygrace'
  * ~~~
 */
 export const Alert: FC<AlertProps> = (props) => {

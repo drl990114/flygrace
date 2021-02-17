@@ -1,8 +1,8 @@
 {
-  "name": "grace-d",
-  "version": "0.1.0",
+  "name": "flygrace",
+  "version": "1.0.0",
   "description": "React components library",
-  "author": "RuiLin Dong",
+  "author": "ruilindong",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -13,10 +13,10 @@
     "UI",
     "React"
   ],
-  "homepage": "https://github.com/halodong/grace",
+  "homepage": "https://github.com/halodong/grace-d",
   "repository": {
     "type": "git",
-    "url": "https://github.com/halodong/grace"
+    "url": "https://github.com/halodong/grace-d"
   },
   "files": [
     "dist"
@@ -30,7 +30,6 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "axios": "^0.21.1",
     "classnames": "^2.2.6",
-    "css-loader": "^5.0.2",
     "react-transition-group": "^4.4.1"
   },
   "scripts": {
@@ -80,6 +79,7 @@
     "@testing-library/user-event": "^12.1.10",
     "react-dom": "^17.0.1",
     "sass-loader": "^11.0.1",
+    "css-loader": "^5.0.2",
     "style-loader": "^2.0.0",
     "typescript": "^4.1.3",
     "web-vitals": "^1.0.1",
