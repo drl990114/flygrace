@@ -1,4 +1,3 @@
-import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
 import { Input, InputProps } from './input';
 import "../../styles/index.scss"
