@@ -9,6 +9,18 @@ export interface IconProps extends FontAwesomeIconProps {
     theme?: ThemeProps
 }
 
+/**
+ * Icon 图标
+ * 
+ * ~~~js
+ * // 这样引用
+ * import { Icon } from 'flygrace'
+ * ~~~
+ * 
+ * 支持 Font Awesome 的所有基本属性 http://www.fontawesome.com.cn/
+ * 
+ * props中icon属性传递图标名即可
+ */
 export const Icon: FC<IconProps> = (props) => {
     // icon-primary
     const { className, theme, ...restProps } = props
