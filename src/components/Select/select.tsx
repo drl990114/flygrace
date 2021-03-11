@@ -176,7 +176,7 @@ export const Select:FC<SelectProps> = (props) => {
   )
 }
 Select.defaultProps = {
-  name: 'viking-select',
+  name: 'grace-select',
   placeholder: '请选择'
 }
 export default Select;

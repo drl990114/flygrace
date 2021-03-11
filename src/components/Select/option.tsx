@@ -15,7 +15,7 @@ export interface SelectOptionProps {
 export const Option: FC<SelectOptionProps> = ({value, label, disabled, children, index}) => {
   const { onSelect, selectedValues, multiple } = useContext(SelectContext)
   const isSelected = selectedValues.includes(value)
-  const classes = classNames('viking-select-item', {
+  const classes = classNames('grace-select-item', {
     'is-disabled': disabled,
     'is-selected': isSelected,
   })
