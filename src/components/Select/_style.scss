@@ -13,14 +13,12 @@
       background-color: $input-bg;
       border-color: $input-border-color;
       cursor: pointer;
-      // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655.
       opacity: 1;
 
     }
     &:disabled {
       background-color: $input-disabled-bg;
       border-color: $input-disabled-border-color;
-      // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655.
       opacity: 1;
       cursor: not-allowed;
     }
