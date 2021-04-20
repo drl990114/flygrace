@@ -1,6 +1,6 @@
 {
   "name": "flygrace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React components library",
   "author": "ruilindong",
   "private": false,
@@ -13,10 +13,10 @@
     "UI",
     "React"
   ],
-  "homepage": "https://github.com/halodong/grace-d",
+  "homepage": "http://halodong.gitee.io/flygrace",
   "repository": {
     "type": "git",
-    "url": "https://github.com/halodong/grace-d"
+    "url": "https://github.com/halodong/flygrace"
   },
   "files": [
     "dist"
@@ -69,24 +69,24 @@
     "@storybook/node-logger": "^6.1.17",
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.17",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
     "@types/classnames": "^2.2.11",
     "@types/react": "^17.0.1",
     "@types/react-dom": "17.0.1",
     "@types/react-transition-group": "^4.2.3",
     "@types/storybook__addon-info": "^5.2.3",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react-dom": "^17.0.1",
-    "sass-loader": "^11.0.1",
     "css-loader": "^5.0.2",
-    "style-loader": "^2.0.0",
-    "typescript": "^4.1.3",
-    "web-vitals": "^1.0.1",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
     "rimraf": "^3.0.1",
-    "react-scripts": "4.0.2"
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.1.3",
+    "web-vitals": "^1.0.1"
   }
 }

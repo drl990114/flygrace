@@ -183,14 +183,14 @@ export const Upload: FC<UploadProps> = (props) => {
 
     return (
         <div
-            className="viking-upload-component"
+            className="grace-upload-component"
         >
-            <div className="viking-upload-input"
+            <div className="grace-upload-input"
                 style={{ display: 'inline-block' }}
                 onClick={handleClick}>
                 {children}
                 <input
-                    className="viking-file-input"
+                    className="grace-file-input"
                     style={{ display: 'none' }}
                     ref={fileInput}
                     onChange={handleFileChange}
